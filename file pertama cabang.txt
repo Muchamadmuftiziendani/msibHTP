@@ -5,3 +5,6 @@ Ini adlaah rincian materi terbaru
 4. php
 5. MYSQL
 6. Laravel
+7. Tugas akhir
+8. liburan
+9. balik kampus lagi wkwk
