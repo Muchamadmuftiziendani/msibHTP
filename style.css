@@ -1,0 +1,68 @@
+body{
+    font: 16px/28px arial,sans-serif;
+    background-color: #eaeaea;
+    background-image: url(emyu.jpg);
+    color: #333;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 2px;
+}
+
+.header.judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: auto;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.header a{
+    text-decoration: none;
+    color: red;
+    padding: 3px;
+}
+.header a:hover {
+    background-color: lightblue;
+    color: white;
+}
+.hero{
+    height: 300px;
+    background-image: url(emyu\ 3.jpg);
+    background-size: cover;
+    background-position: 30 -10;
+    border-top: 10px solid lightblue;
+    border-bottom: 5px solid salmon;
+}
+.content{
+    padding: 30px;
+    
+}
+.content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+
+}
+.content .penulis{
+    color: #333;
+    text-decoration: none;
+}
+.content .penulis a{
+    color: #333;
+    text-decoration: none;
+}
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}

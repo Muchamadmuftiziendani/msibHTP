@@ -1,0 +1,36 @@
+p{
+    color:rgb(19, 19, 19);
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
+}
+body{
+background-color:burlywood;
+background-image: url(emyu.jpg);
+background-repeat: no-repeat;
+}
+/* grouping css */
+
+fieldset, legend{
+    border:yellow groove 3px;
+    border-radius: 30px;
+}
+legend{
+    padding: 10px;
+    background-color: red;
+    font-size: 14pt;
+}
+table{
+    border: 10px;
+    margin: auto;
+}
+div#menu {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+a.item:link, a.item:visited, a.item:active{
+text-decoration: none;
+font-size: 16pt;
+color:brown;
+}
