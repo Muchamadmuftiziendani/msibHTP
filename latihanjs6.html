@@ -1,0 +1,32 @@
+<script>
+    //ada pelanggan membeli barang elektronik
+    //barnag barangnya misal ada TV=> 3 juta, motor => 12 juta, kulkas => 4 juta
+    //tentukan pembelian barnagnya apa dan berapa yang beli
+
+    let pelanggan = "Mufti";
+    let produk = "TV";
+
+    //struktur kendali
+    if (produk == 'TV'){
+        harsat = 3000000;
+    }
+    else if (produk == 'Motor'){
+        harsat = 12000000;
+    }
+    else if (produk =='kulsa'){
+        harsat = 4000000;
+    }
+    else {
+        harsat = 0;
+    }
+    let jmlhBeli = 10;
+    let bruto = harsat * jmlhBeli;
+
+    document.write( "Data Pembelian " + 
+    "<br> Pelanggan" + pelanggan + 
+    "<br> Produk yang dibeli" + produk + 
+    "<br> Harga satuan" + harsat +
+    "<br> Jumlah barang yang dibeli" + jmlhBeli +
+    "<br> Total Harga dari pembelian " + bruto 
+    )
+</script>
