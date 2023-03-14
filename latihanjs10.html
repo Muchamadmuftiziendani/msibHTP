@@ -1,3 +1,16 @@
+<script>
+    //array of object
+    // atau array didalam array
+    // atau array yang menyimpan array
+
+    let p1 = {nama:"Mufti", nilai:80};
+    let p2 = {nama:"ROSE", nilai:81};
+    let p3 = {nama:"LISA", nilai:82};
+    let p4 = {nama:"JISO", nilai:83};
+    let p5 = {nama:"JENNIE", nilai:84};
+
+    let person = [p1,p2,p3,p4,p5];
+</script>
 <h3>
     <table style="padding: 10; text-align: center; width: 100%;">
         <thead>
@@ -9,13 +22,14 @@
         </thead>
         <tbody>
             <script>
-                var no, warna;
-                for(no=1; no <=20; no ++){
-                    warna = (no % 2 == 0 )? 'yellow' : 'blue';
-                    document.write(`<tr bgcolor="${warna}">
-                <td>${no}</td>
-                <td>Mahasiswa ${no}</td>
-                <td>Jl. Ir soetami ${no}</td>
+                var no = 1;
+                for (p of person){
+                    let ket = (p.nilai >=60)? "Lulus" : "Gagal";                   
+                    document.write(`<tr bgcolor="">
+                <td>${no++}</td>
+                <td>${p.nama}</td>
+                <td>${p.nilai}</td>
+                <td>${ket}</td>
             </tr>`);
         
         }
